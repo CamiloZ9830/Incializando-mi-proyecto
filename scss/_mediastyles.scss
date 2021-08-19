@@ -1,0 +1,24 @@
+@import "variables";
+
+@media screen and (min-width : 320px) and (max-width : 768px) {
+    .nav {
+        position: relative;
+        left: 180px;
+        bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 60%;
+        
+        
+        
+        list-style: none; }
+    .flex-PG5 {
+      display: flex;
+      flex-direction: column !important;
+      justify-content: space-around !important;
+      row-gap: 100px !important;
+    }
+ 
+    
+  }

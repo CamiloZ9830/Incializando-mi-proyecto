@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="eng">
+<!-- Bike store - Juan Camilo Zora desafio  --> 
+    <head>
+	    <meta charset="UTF-8">
+	      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	    <title>Bike Store | Tienda Online</title>
+         
+	    
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+       <link rel="stylesheet" type="text/css" href="css/mediaStyle.css">
+	  
+
+         
+	
+	    
+	</head>    
+
+	<body class="gridContainer"> 
+		
+        <header class="gridContainer__Header">
+			<nav>
+				<div class="titulo">
+		            <a class="titulo__Link" href="index.html"><h1 class="titulo__H1">Bike Store</h1></a>
+				</div>
+				<div class="container__nav">
+				<div class="slogan">
+                    <h5 class="slogan__H5" >Todo lo que necesitas para tu bici en un solo lugar!</h5>
+				</div>
+					<div class=" navMenu nav nav-pills nav-justified"> 
+						<a class=" nav-item nav-link" href="pagina2.html">Bicicletas</a>
+						<a class=" nav-item nav-link" href="pagina3.html">Equipo</a>
+						<a class=" nav-item nav-link" href="pagina4.html">Electra Bikes</a>
+						<a class=" nav-item nav-link " href="pagina5.html"target="_blank">Tienda Oficial</a> 
+					</div>
+				</div>
+			</nav>
+			
+        	
+    	  
+    	</header> 
+		<div class="gridContainer__Showcase">
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  </div>
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				<img src="img/bike-title.png" class="d-block w-100" alt="Biciclietas de montaña">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5 class="gridContainer__Showcase--Info lead"><span class="border border-dark">Biciclietas de montaña</h5>
+				 <p class="gridContainer__Showcase--Info lead"><span class="border border-dark">En Bike Store Tienda Online encontraras bicicletas de ruta,  montaña, bicicletas urbanas y bicicletas electricas.</span></p>
+				</div>
+				</div>
+				<div class="carousel-item">
+				<img src="img/bike-title.png" class="d-block w-100" alt="Equipo de seguridad">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5 class="gridContainer__Showcase--Info lead"><span class="border border-dark">Equipo de seguridad</h5>
+				  <p class="gridContainer__Showcase--Info lead"><span class="border border-dark">Viaja seguro con el equipamiento que necesita tu bicicleta, en Bike Store encontraras todos los gadgets, equipamientos de seguridad, respuestos, para que tu viaje en bici sea garantia de aventuras</p>
+				</div>
+				</div>
+				<div class="carousel-item">
+				<img src="img/bike-title.png" class="d-block w-100" alt="Bicicletas Electricas">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5 class="gridContainer__Showcase--Info lead"><span class="border border-dark">Bicicletas Electricas</h5>
+				  <p class="gridContainer__Showcase--Info lead"><span class="border border-dark">Bicletas electricas, Mira las "All-New" Electra Bikes con diseños modernos si lo que te gusta es viajar con estilo</p>
+				</div>
+				</div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			  </button>
+			  </div>
+		  </div>
+		
+		<div class="gridContainer__Sidebar">
+			
+        		<h3 class="tituloSidebar">Encuentra esa Bici que quieres</h3>
+        		 <h5 class="tituloFiltro">Filtros</h5>
+        		 <div class="sidebarProd"> 
+        		 	<div class=" sidebarProd__box1">
+        			<h4>Categoria</h4>
+        			<form>
+        				
+        			   <select  class="btn btn-secondary d-grid gap-2 form-select" aria-label="Default select example" name="categoria" >
+        			   <option   value="categoria" >Bicicletas de ruta</option>
+             	       <option value="categoria" >Bicicletas Urbanas</option> 
+        			   <option value="categoria" >Repuestos</option> 
+        			   <option value="categoria" >Equipos y Accesorios</option>
+        			   </select>
+        			</form>
+        			</div>
+        			<div class="sidebarProd__box2">
+
+        			<h4>Modelo (año)</h4>
+        			   <form>
+        			   	<select class="btn btn-secondary d-grid gap-2 form-select" aria-label="Default select example" name="categoria">
+        			   		<option>2018 <</option>
+        			   		<option>2019</option>
+        			   		<option>2020</option>
+        			   		<option>2021</option>
+        			   		<option>2022</option>
+        			   		<option>Todos los años</option>
+        			   	</select>
+        			   </form> 
+        			   </div>  
+        			   <div class="sidebarProd__box3">
+        			<h4>Genero</h4> 
+        			   <form>
+        			   	<select class="btn btn-secondary d-grid gap-2 form-select" aria-label="Default select example" name="categoria">
+        			   	   <option value="genero">Hombre</option>
+        			   	   <option value="genero">Mujer</option>
+        			   	   <option value="genero">-------</option>
+        			   	</select>
+        			   </form>
+        			   </div>
+        			   <div class="sidebarProd__box4">
+        			   
+        			<h4>Color</h4> 
+        			
+        				<form>
+        					<select class="btn btn-secondary d-grid gap-2 form-select" aria-label="Default select example" name="categoria">
+        						<option value="Rojo">Rojo</option>
+        						<option value="Verde">Verde</option>
+        						<option value="Azul">Azul</option>
+        						<option value="Color">-------</option>
+
+        						
+        					</select>
+        				</form>
+        				</div>
+        		
+        		
+        			<div class="sidebarProd__box5">
+        				<form class="d-grid gap-2">
+			    
+			        	 
+			        		<button type="button" class="btn btn-primary">Buscar</button>
+			        	</form>
+
+        				
+        			</div>
+        			</div>
+                  
+		</div>
+		<div class="gridContainer__Products">
+			
+        		<h3 class="inventarioTitulo"> Bicicletas mas Populares </h3> 
+        		<div class="inventarioProductos">
+        					
+        		
+        		
+        			
+        	        <div class=" grid-item card btn btn-secondary  " style="width: 25rem;">
+ <img class="img-thumbnail img-fluid"   width= "235" height="200" src="https://trek.scene7.com/is/image/TrekBicycleProducts/EmondaSL7DisceTap_21_32564_A_Primary?$responsive-pjpg$&cache=on,on&wid=1920&hei=1440" alt="Trek Supercaliber">
+  <div class="card-body">
+    <h5 class="card-title btn-light">Bicicleta Trek</h5>
+    <p class="card-text btn-light">Bicicleta Trek Supercaliber </p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">600$</li>
+    <li class="list-group-item">A second item</li>
+    
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Comprar</a>
+    <a href="#" class="card-link">Agregar al carrito</a>
+  </div>
+</div>
+        		    
+        		    
+        		    <div class=" grid-item card btn btn-secondary " style="width: 25rem;">
+ <img class="img-thumbnail img-fluid"   width= "235" height="200" src="https://trek.scene7.com/is/image/TrekBicycleProducts/EmondaSL7DisceTap_21_32564_A_Primary?$responsive-pjpg$&cache=on,on&wid=1920&hei=1440" alt="Trek Supercaliber">
+  <div class="card-body">
+    <h5 class="card-title btn-light">Bicicleta Trek</h5>
+    <p class="card-text btn-light">Bicicleta Trek Supercaliber </p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">600$</li>
+    <li class="list-group-item">A second item</li>
+    
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Comprar</a>
+    <a href="#" class="card-link">Agregar al carrito</a>
+  </div>
+</div>
+    		          
+    		         
+    		        
+    		        
+    		        	<div class=" grid-item card btn btn-secondary" style="width: 25rem;">
+ <img class="img-thumbnail img-fluid"   width= "235" height="200" src="https://trek.scene7.com/is/image/TrekBicycleProducts/EmondaSL7DisceTap_21_32564_A_Primary?$responsive-pjpg$&cache=on,on&wid=1920&hei=1440" alt="Trek Supercaliber">
+  <div class="card-body">
+    <h5 class="card-title btn-light">Bicicleta Trek</h5>
+    <p class="card-text btn-light">Bicicleta Trek Supercaliber </p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">600$</li>
+    <li class="list-group-item">A second item</li>
+   
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Comprar</a>
+    <a href="#" class="card-link">Agregar al carrito</a>
+  </div>
+</div>
+        		     
+        		 
+
+
+        		 <nav aria-label="..."> 
+                    <ul class="pagination">
+                        <li class="page-item ">
+                           <a class="page-link" href="#">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active">
+                        <span class="page-link">2
+                        <span class="sr-only"></span>
+                        </span>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                           <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                 </nav>
+
+                    
+
+
+        		
+        		</div>
+        	
+		</div >
+    	
+    
+		<footer class="gridContainer__Footer">
+		
+			
+					   <div class="gridContainer__Footer--Mod">
+				
+						<div class="footer__box-1">
+						<h4 class="footer__box-1__tituloh4">Recibe Grandes Ofertas <br/> Subscribete a Nuestro Newsletter</h4> 
+						
+							<form class="footer__box-1__form">
+								<label class="footer__box-1__label" for="Email"> Email: </label>
+								<input class="footer__box-1__label" type="Email" name="Email">
+								<input class="footer__box-1__label" type="submit" name="Enviar" value="Unirme"> 
+							</form>
+					   
+					
+						  
+							<h6 class="footer__box-1__tituloh6">Redes Sociales</h6>
+	
+							<ul class=" footer__estiloLista footer__box-1__ul">
+								<li class="footer__box-1__li"><a class="footer__Link" href="https://es-la.facebook.com" target="_blank"><img width="30" height="30" src="https://s3-symbol-logo.tradingview.com/facebook--600.png"><!--Facebook--></a></li>
+								<li class="footer__box-1__li"><a class="footer__Link" href="https://twitter.com" target="_blank"><img width="30" height="30" src="https://i2.wp.com/hipertextual.com/wp-content/uploads/2012/06/twitter-bird-white-on-blue.jpg?fit=300%2C300&ssl=1"><!--Twitter--></a></li>
+								<li class="footer__box-1__li"><a class="footer__Link" href="https://www.instagram.com" target="_blank"><img width="30" height="30" src="https://png.pngtree.com/element_our/md/20180301/md_5a9797d18f418.jpg"><!--Instagram--></a></li>
+							</ul>
+							</div> 
+							
+						
+	
+						
+						<div class="footer__box-2">
+						<h5>Soporte</h5>
+						 <ul class=" footer__estiloLista footer__box-2__ul">
+						   <li><a class="footer__Link" href="serviciocliente.html" target="_blank"><h5>Servicio al cliente</h5></a> </li> 
+						   <li><a class="footer__Link" href="garantia.html" target="_blank"><h5>Garantia</h5></a> </li>
+						   <li><a class="footer__Link" href="contacto.html" target="_blank"><h5>Contactanos</h5></a> </li>
+						 </ul>
+						</div>
+						<div class="footer__box-3">
+						<h5>Legal</h5>
+						  <ul class="footer__estiloLista">
+							   <li class="footer__box-3__li"><a class="footer__Link" href="PPTU.html" target="_blank"><h5>Politica de privacidad y terminos de uso</h5></a> </li> 
+							 <li class="footer__box-3__li"><a class="footer__Link" href="PC.html" target="_blank"><h5>Politica de cookies</h5></a> </li> 
+							 <li class="footer__box-3__li"><a class="footer__Link" href="SEP.html" target="_blank"><h5>Seguridad y envio de productos</h5></a> </li> 
+						  </ul>
+						  </div>
+						
+	
+					
+	
+	</div>
+	
+		    	
+
+
+		
+			
+		</footer>
+	
+
+	
+		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	</body>
+     
+    	
+
+
+    	
+    
+</html>

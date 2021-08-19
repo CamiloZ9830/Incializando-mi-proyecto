@@ -1,0 +1,254 @@
+@import "variables";
+.gridContainer {
+    background-color: rgba(46, 46, 46, 0.1);
+    color: #000;
+    font-family: Arial, Helvetica,Nanum Gothic, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.6em !important;
+    margin: 0 auto !important;
+    padding: 0;
+    overflow-x: hidden; 
+    display: grid;
+    grid-template-columns: 4(1fr);
+    grid-template-rows: 10(1fr);
+    grid-auto-rows: minmax(100px auto);
+    grid-gap: 0.1em ;
+    
+    
+    .lead {
+      font-size: 1.25rem !important;
+      font-weight: 300 !important; }
+    .gridContainer__Header {
+        background-color: rgba(46,46,46,0.28);
+        padding:$padding-main;
+        grid-column: 1/10;
+        
+        
+        
+        .titulo {
+          background: #fff;
+          background: -moz-linear-gradient(left, #fff 0%, #1C6EA4 41%, #2B6EFF 100%);
+          background: -webkit-linear-gradient(left, #fff 0%, #1C6EA4 41%, #2B6EFF 100%);
+          background: linear-gradient(to right, #fff 0%, #1C6EA4 41%, #2B6EFF 100%);
+          margin-top: 2%;
+          margin-right: 65%;
+          padding-left: 7.7%;
+          margin-left: 2%;
+          transform: skewX(-23deg);
+          border: 5px outset #1C6EA4;
+          -webkit-box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0,0,0,0); 
+          box-shadow: rgb(40, 159, 237) 5px 5px 0px 0px, rgb(95, 184, 255) 10px 10px 0px 0px, rgb(161, 216, 255) 15px 15px 0px 0px, rgb(202, 230, 255) 20px 20px 0px 0px, rgb(225, 238, 255) 25px 25px 0px 0px, 5px 5px 15px 5px rgba(0,0,0,0);;
+          
+          
+          .titulo__H1 {
+            font-size: 58px;
+            position: relative;
+            right: 20px;
+             }
+          
+          .titulo__Link {
+            
+            color: $logo-color;
+            text-decoration: none;
+            overflow: hidden; }
+            width: 15%;
+                @keyframes bike {
+                   0% {
+                     transform: translateX(0); }
+                   20% {
+                     transform: translateX(2px); }
+                   40% {
+                     transform: translateX(4px); }
+                   60% {
+                     transform: translateX(6px); }
+                   80% {
+                     transform: translateX(8px); }
+                   100% {
+                     transform: translateX(10px); } }
+              
+           .titulo__H1:hover {
+                animation-duration: 1.2s;
+                animation-name: bike;
+                animation-timing-function: step-start;
+                animation-iteration-count: 2;
+                animation-delay: 0.4s; }
+        }
+        /*.container__nav {
+          position: relative;
+          bottom: 90px;
+          margin-left: 15em;
+          margin-right: 15em;
+          
+         
+          
+          
+
+
+        }*/
+          
+        .slogan {
+           position: relative;
+           bottom: 50px;
+            padding-left: 20%;
+            width: 80%;
+            color: $slogan-color;
+            
+            
+         
+            
+            .slogan__H5 {
+                word-spacing: 3px;
+                font-weight: $font-extrabold;
+                font-size: 16px;
+                border-color: $slogan-color;
+                border-style: solid;
+                border-radius: 4px;
+                border-width: 3px;
+                text-align: center; }
+              
+        
+        }
+        .nav {
+            
+            
+          position: relative;
+          bottom: 50px;
+                
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            padding-right: 20%;
+            padding-left: 20%;
+            
+            
+            list-style: none; }
+            .nav-link {
+                border: solid 1px !important;
+                border-color: #0d6efd !important; }
+            .nav-link:hover {
+                color: #fff;
+                background-color: #0d6efd;
+                border-color: #dee2e6 #dee2e6 #fff; }
+        }
+    .gridContainer__Showcase {
+        background-color: #ddd;
+        padding:0.1em;
+        grid-column: 1/10;
+        
+        
+          
+          .gridContainer__Showcase--Info {
+            color: rgb(243, 234, 234);
+            font-size: 25px;
+            line-height: 1.6em;
+            font-weight: $font-semibold; }
+           .gridContainer__Showcase--Info:hover {
+                transform: scale($object-scale20); }
+          
+            .gridContainer__Showcase--span {
+            color: #fff;
+            background-color: rgba(64, 64, 64, 0.4); }
+            .titulo--showcase-PG5 {
+              color: $title-color;
+              text-align: center
+            }
+        
+        
+
+    }
+    
+    @import "sidebar";
+    
+    .gridContainer__Products {
+        background-color: #ddd;
+        padding:$padding-main;
+        grid-column: 2/10;
+        overflow: auto;
+      
+        
+        .inventarioProductos {
+            
+            
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr ));
+            grid-auto-rows: minmax(250px, auto);
+            column-gap: 4%;
+            row-gap: 2.5%;
+            overflow: hidden; 
+        }
+        
+        .grid-item > img:hover {
+            transform: scale($object-scale06); }
+           
+        .pagination {
+            position: relative;
+            left: 540px;
+            top: 50px;  }
+
+            .flex-PG5 {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-evenly;
+              column-gap: 100px;
+              overflow: hidden;
+              min-height: 250px;
+              
+              
+              .flex-item {
+                flex: 1;
+                position: relative;
+                padding-bottom: 46.25%; 
+                height: 0;
+                
+               
+              
+              }
+              
+
+              .map-title,
+              .video-title
+               {
+             color: $title-color;
+             flex: 1;
+            text-align: center;
+            margin-top: 1em;
+            
+                
+              }
+
+              .video-PG5 {
+                
+                
+                border: solid 1px black;
+                position: absolute;
+                top: 8.2em;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                display: block;
+                width: 100%;
+                height: 56.25%; 
+
+  
+                
+              }
+              
+              
+              
+            
+  
+            }
+            
+          
+     
+          
+        
+        
+
+    }
+    
+    @import "footer";
+
+    
+    @import "mediastyles";
+}
