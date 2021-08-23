@@ -1,23 +1,32 @@
 .gridContainer__Sidebar {
-    background-color: #ddd;
+    background-color: rgba(50, 88, 240, 0.1);
     padding:$padding-main;
     grid-column: 1/2;
-   
-    
+    min-width: 100px;
     overflow: auto;
-    overflow-x: hidden;
+    overflow-x: hidden; 
+    .tituloFiltro {
+      color: rgb(16, 55, 211);
+ }
+    .tituloSidebar {
+      color: rgb(50, 88, 240);
+
+ }
     
       
     .sidebarProd {
         background-color: rgba(64, 64, 64, 0.6);
         color: blue;
-        border: 1px solid rgba(64, 64, 64, 0.7);
+        border: 1px solid rgba(64, 64, 64, 0.6);
         display: flex;
-        width: 90%;
+        width: 100%;
         flex-direction: column;
         flex-wrap: nowrap;
         text-align: center;
-        border-radius: 5px; 
+        border-radius: 5px;
+        margin-top: $margin-main;
+       
+        
     }
         .sidebarProd__box1 {
             flex: 1;
@@ -36,7 +45,7 @@
           
           .sidebarProd__box4 {
             flex: 1;
-            order: 3;
+            order: 4;
             border-bottom: solid 1px $bordercolor-sidebar; }
           
           .sidebarProd__box5 {

@@ -1,9 +1,9 @@
 @import "variables";
 
 .gridContainer__Footer {
-    background-color: #ddd;
+   
     padding: $padding-main;
-    background: linear-gradient(90deg, rgba(20, 20, 20,0.8) 0%, rgba(46,46,46,0.3) 1%, rgba(46,46,46,0.3) 99%, rgba(20, 20, 20,0.8) 100%);
+    background: linear-gradient(90deg, rgba(20, 20, 20,0.53) 0%, rgba(50, 88, 240, 0.2) 1%, rgba(50, 88, 240, 0.2) 99%, rgba(20, 20, 20,0.53) 100%);
     
     grid-column: 1/10;
     .gridContainer__Footer--Mod {
@@ -12,9 +12,9 @@
           flex-wrap: wrap;
           flex-direction: row;
           justify-content: space-around;
-          align-content: center;
+          align-items: center;
           flex-basis: 100%;
-          min-height: 250px;
+          min-height: 200px;
           text-align: center;
             .footer__Link{
                 text-decoration: none;
@@ -37,6 +37,8 @@
                 text-align: center;
                 font-weight: $font-semibold;}
             .footer__box-1__tituloh6{
+                font-weight: $font-semibold;
+                margin-top:$margin-main;
                 text-align: center;}
             .footer__box-1__ul{
                 text-align: center;}

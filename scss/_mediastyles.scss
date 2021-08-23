@@ -1,17 +1,16 @@
 @import "variables";
 
 @media screen and (min-width : 320px) and (max-width : 768px) {
+    .slogan{
+      margin-top: 10%;
+    }
     .nav {
-        position: relative;
-        left: 180px;
-        bottom: 40px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 60%;
-        
-        
-        
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
         list-style: none; }
     .flex-PG5 {
       display: flex;

@@ -1,7 +1,7 @@
 {
   "name": "pagina-web-bike-store-bootstrap",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bike store Web Page con uso de Bootsrap y sccs para dar estilos y compilado a css",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
